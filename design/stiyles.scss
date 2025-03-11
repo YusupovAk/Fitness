@@ -1,0 +1,116 @@
+$nav_bg_color: #1A1A25;
+$nav_a_color:#858FA4;
+$nav_button_color: #384255;
+$nav_a_call_color:#F53B49;
+$nav_font_size: 14px;
+$nav_bottom_button_color: #F53B49;
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.nav_con{
+        display: flex;
+        justify-content: space-evenly;
+    }
+
+nav{
+    font-size: $nav_font_size;
+    padding: 15px;
+    background-color: $nav_bg_color;
+    a{
+        color: $nav_a_color;
+        text-decoration: none;
+        margin-right: 20px;
+    }
+    button{
+        background-color: $nav_button_color;
+        color: white;
+        border: none;
+        padding: 10px 20px;
+        border-radius: 5px;
+    }
+    button:active{
+        background-color:$nav_a_color;
+    }
+    .nav_l{
+        gap: 40px;
+    }
+    .nav_r{
+        gap: 25px;
+    }
+    .nav_l_diller, .login, .nav_r, .nav_l{
+        display: flex;
+        align-items: center;
+    }
+    #msk{
+        width: 50px;
+        background-color: transparent;
+        color: $nav_a_color;
+        border: none;
+    }
+    .nav_l_call{
+        color: $nav_a_call_color;
+    }
+    .login a, .nav_tel{
+        color: white;
+    }
+    .login img{
+        color: $nav_a_color;
+    }
+    .regions #regions{
+        border: none;
+        background-color: transparent;
+        color: $nav_a_color;
+    }
+    .nav_l_tel{
+        display: flex;
+
+    }
+    .login #login{
+        display: flex;
+        gap: 5px;
+        align-items: center;
+    }
+   
+}
+.nav_bottom,.katalog,.katalog_button,.nav_bottom_menu,.nav_bottom_icons,.nav_bottom_l{
+    display: flex;
+    align-items: center;
+
+}
+ .nav_bottom,.nav_bottom_icons{
+    justify-content: space-evenly;
+}
+.katalog{
+    gap: 50px;
+}
+.katalog_button{
+    gap: 5px;
+    background-color: $nav_bottom_button_color;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+
+}
+.nav_bottom_menu a{
+    color: white;
+    text-decoration: none;
+}
+.nav_bottom_icons{
+    gap: 15px;
+}
+.nav_bottom_l,.nav_bottom_menu {
+    gap: 25px;
+}
+#likes:active{
+    color: red;
+}
+.header{
+    background-color: lightgray;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: column wrap;
+}

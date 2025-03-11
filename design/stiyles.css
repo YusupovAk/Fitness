@@ -1,0 +1,116 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.nav_con {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+nav {
+  font-size: 14px;
+  padding: 15px;
+  background-color: #1A1A25;
+}
+nav a {
+  color: #858FA4;
+  text-decoration: none;
+  margin-right: 20px;
+}
+nav button {
+  background-color: #384255;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+}
+nav button:active {
+  background-color: #858FA4;
+}
+nav .nav_l {
+  gap: 40px;
+}
+nav .nav_r {
+  gap: 25px;
+}
+nav .nav_l_diller, nav .login, nav .nav_r, nav .nav_l {
+  display: flex;
+  align-items: center;
+}
+nav #msk {
+  width: 50px;
+  background-color: transparent;
+  color: #858FA4;
+  border: none;
+}
+nav .nav_l_call {
+  color: #F53B49;
+}
+nav .login a, nav .nav_tel {
+  color: white;
+}
+nav .login img {
+  color: #858FA4;
+}
+nav .regions #regions {
+  border: none;
+  background-color: transparent;
+  color: #858FA4;
+}
+nav .nav_l_tel {
+  display: flex;
+}
+nav .login #login {
+  display: flex;
+  gap: 5px;
+  align-items: center;
+}
+
+.nav_bottom, .katalog, .katalog_button, .nav_bottom_menu, .nav_bottom_icons, .nav_bottom_l {
+  display: flex;
+  align-items: center;
+}
+
+.nav_bottom, .nav_bottom_icons {
+  justify-content: space-evenly;
+}
+
+.katalog {
+  gap: 50px;
+}
+
+.katalog_button {
+  gap: 5px;
+  background-color: #F53B49;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+}
+
+.nav_bottom_menu a {
+  color: white;
+  text-decoration: none;
+}
+
+.nav_bottom_icons {
+  gap: 15px;
+}
+
+.nav_bottom_l, .nav_bottom_menu {
+  gap: 25px;
+}
+
+#likes:active {
+  color: red;
+}
+
+.header {
+  background-color: lightgray;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: column wrap;
+}/*# sourceMappingURL=stiyles.css.map */
